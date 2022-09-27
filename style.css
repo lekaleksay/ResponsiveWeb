@@ -1,0 +1,89 @@
+body{
+    background-color: #cccfb9;
+    color: rgb(42,9,1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    background-color: #e8833b;
+    color: rgb(42,9,1);
+}
+
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.nav ul li{
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgb(42,9,1);
+    transition: background-color 0.2s;
+}
+
+.nav ul li:hover{
+    background-color: rgb(42,9,1); 
+    color: #cccfb9;
+}
+
+.image-area{
+    background-image: url("fon.jpg");
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.image-text{
+    text-align: center;
+    background-color: rgb(42,9,1);
+    
+    color: #e8833b;
+    font-size: 2.5rem;
+    max-width: 720px;
+    margin: 0px auto;
+    padding: 10px 16px;
+}
+
+.intro{
+    color: grey;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.single-service{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.single-service p{
+    padding: 0px 16px;
+}
+.single-service img{
+    width: 400px;
+    height: 400px;
+}
+@media screen and (min-width:805px){
+    .nav ul{
+        text-align: right;
+    }
+
+    .nav ul li{
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid rgb(42,9,1);
+        text-align: left;
+    }
+    
+    .single-service{
+        width: 50%;
+        float: left;
+    }
+}
